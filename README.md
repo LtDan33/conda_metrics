@@ -1,9 +1,12 @@
-# Django Vue Template ✌️ 🐍
+# Conda Metrics🐍
 
-![Vue Logo](/src/assets/logo-vue.png "Vue Logo")
-![Django Logo](/src/assets/logo-django.png "Django Logo")
+ Goal is to gather Conda metrics in order to parse and display a helpful dashboard
 
-This template is a minimal example for an application using Vue and Django.
+ Full tech spec is  [here](https://docs.google.com/document/d/1wpjfUZ2NT89BQuGzEFBlZ6IF_LgNnTCLkboaBLcpVFY/edit#heading=h.vv37mdxyde7)
+
+ This was made using the excellant [django-vue-template](https://github.com/gtalarico/django-vue-template)
+
+ # Dev Info
 
 Vue and Django are clearly separated in this project. Vue, Yarn and Webpack handles all frontend logic and bundling assessments. Django and Django REST framework to manage Data Models, Web API and serve static files.
 
@@ -15,19 +18,6 @@ data at `/api/`, and static files at `/static/`. Django admin panel is also avai
 The application templates from Vue CLI `create` and Django `createproject` are kept as close as possible to their
 original state, except where a different configuration is needed for better integration of the two frameworks.
 
-#### Alternatives
-
-If this setup is not what you are looking for, you might want look at other similar projects:
-
-* [ariera/django-vue-template](https://github.com/ariera/django-vue-template)
-* [vchaptsev/cookiecutter-django-vue](https://github.com/vchaptsev/cookiecutter-django-vue)
-
-Prefer Flask? Checkout my [gtalarico/flask-vuejs-template](https://github.com/gtalarico/flask-vuejs-template)
-
-### Demo
-
-[Live Demo](https://django-vue-template-demo.herokuapp.com/)
-
 ### Includes
 
 * Django
@@ -38,7 +28,6 @@ Prefer Flask? Checkout my [gtalarico/flask-vuejs-template](https://github.com/gt
 * Vuex
 * Gunicorn
 * Configuration for Heroku Deployment
-
 
 ### Template Structure
 
@@ -57,10 +46,10 @@ Prefer Flask? Checkout my [gtalarico/flask-vuejs-template](https://github.com/gt
 
 Before getting started you should have the following installed and running:
 
-- [X] Yarn - [instructions](https://yarnpkg.com/en/docs/install)
-- [X] Vue CLI 3 - [instructions](https://cli.vuejs.org/guide/installation.html)
-- [X] Python 3 - [instructions](https://wiki.python.org/moin/BeginnersGuide)
-- [X] Pipenv - [instructions](https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv)
+- [] Yarn - [instructions](https://yarnpkg.com/en/docs/install)
+- [] Vue CLI 3 - [instructions](https://cli.vuejs.org/guide/installation.html)
+- [] Python 3 - [instructions](https://wiki.python.org/moin/BeginnersGuide)
+- [] Pipenv - [instructions](https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv)
 
 ## Setup Template
 
@@ -104,32 +93,12 @@ and the page will not reload on changes.
 $ yarn build
 $ python manage.py runserver
 ```
-## Pycharm additional configuration
-
-Follow this guide to ensure you have pipenv setup
-
-https://www.jetbrains.com/help/pycharm/pipenv.html
-
-Click "Edit Configurations"
-
-Select Django Server under templates
-
-Click + to create a config from the templates
-
-In Environment variables add
-
-```
-PYTHONUNBUFFERED=1;DJANGO_SETTINGS_MODULE=backend.settings.dev
-```
-
-Click Apply then Ok
 
 ## Deploy
 
 * Set `ALLOWED_HOSTS` on [`backend.settings.prod`](/backend/settings/prod.py)
 
 ### Heroku Server
-
 ```
 $ heroku apps:create django-vue-template-demo
 $ heroku git:remote --app django-vue-template-demo
@@ -152,7 +121,9 @@ The [`Procfile`](/Procfile) will run Django migrations and then launch Django'S 
 
 ##### Heroku One Click Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/gtalarico/django-vue-template)
+## ###TODO// Update the heroky one click deploy
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?xxxxxxxxxx)
 
 ## Static Assets
 
