@@ -59,9 +59,11 @@ $ cd django-vue-template
 ```
 
 Setup
+
+Note: Conda nor Conda Forge do not have gunicorn packages for Windows, sad day. If you are on Mac or Linux you can just update the reqs and skip the below pip install
 ```
 $ yarn install
-$ pipenv install --dev && pipenv shell
+$ pip install gunicorn  
 $ python manage.py migrate
 ```
 

@@ -1,0 +1,11 @@
+# Build dependencies
+#setuptools
+
+# Run dependencies
+#python -- This should already be installed on project/env setup
+django
+djangorestframework
+dj-database-url
+# gunicorn
+psycopg2-binary
+whitenoise=4.0

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import VueDemo from '@/components/VueDemo'
+import Home from '@/components/Home'
+import Resources from '@/components/Resources'
 import Messages from '@/components/Messages'
 
 Vue.use(Router)
@@ -10,7 +11,12 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: VueDemo
+      component: Home
+    },
+    {
+      path: '/resources',
+      name: 'resources',
+      component: Resources
     },
     {
       path: '/messages',
