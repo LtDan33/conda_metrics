@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <img src='@/assets/conda.png'/>
-    <p>Test the things</p>
+    <p>Test the {{poll}} things</p>
     <br/>
 
     <hr/>

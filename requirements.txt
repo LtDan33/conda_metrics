@@ -9,3 +9,4 @@ dj-database-url
 # gunicorn
 psycopg2-binary
 whitenoise=4.0
+requests

@@ -49,7 +49,6 @@ Before getting started you should have the following installed and running:
 - [] Yarn - [instructions](https://yarnpkg.com/en/docs/install)
 - [] Vue CLI 3 - [instructions](https://cli.vuejs.org/guide/installation.html)
 - [] Python 3 - [instructions](https://wiki.python.org/moin/BeginnersGuide)
-- [] Pipenv - [instructions](https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv)
 
 ## Setup Template
 
@@ -67,7 +66,7 @@ $ pip install gunicorn
 $ python manage.py migrate
 ```
 
-## Running Development Servers
+## ⚙️ Running Development Servers
 
 ```
 $ python manage.py runserver
