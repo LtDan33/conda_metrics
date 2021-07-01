@@ -10,3 +10,6 @@ dj-database-url
 psycopg2-binary
 whitenoise=4.0
 requests
+numpy
+pandas
+pygithub

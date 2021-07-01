@@ -3,12 +3,14 @@
     <img src='@/assets/conda.png'/>
     <p>Test the {{poll}} things</p>
     <br/>
-
+      <!-- {{ data }} -->
     <hr/>
     <h3>Open Issues</h3>
     <p v-if="messages.length === 0">No Messages</p>
   </div>
+
 </template>
+
 
 <script>
 import { mapState, mapActions } from 'vuex'
@@ -32,6 +34,10 @@ export default {
     this.$store.dispatch('messages/getMessages')
   }
 };
+
+module.exports = {
+  props: ['data']
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

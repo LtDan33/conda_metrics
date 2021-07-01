@@ -2,6 +2,8 @@
 
  Goal is to gather Conda metrics in order to parse and display a helpful dashboard
 
+ 	> NOTE! This is/was a hackday thing. Hacks and mess abounds as there was a lot of playing around and scrathpad dev work going on. (For example I abonded VUE halfway through) 
+
  Full tech spec is  [here](https://docs.google.com/document/d/1wpjfUZ2NT89BQuGzEFBlZ6IF_LgNnTCLkboaBLcpVFY/edit#heading=h.vv37mdxyde7)
 
  This was made using the excellant [django-vue-template](https://github.com/gtalarico/django-vue-template)
