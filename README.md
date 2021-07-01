@@ -2,7 +2,7 @@
 
  Goal is to gather Conda metrics in order to parse and display a helpful dashboard
 
- 	> NOTE! This is/was a hackday thing. Hacks and mess abounds as there was a lot of playing around and scrathpad dev work going on. (For example I abonded VUE halfway through) 
+ 	> NOTE! This is/was a hackday thing. Hacks and mess abounds as there was a lot of playing around and scratchpad dev work going on. (For example I abonded VUE halfway through) 
 
  Full tech spec is  [here](https://docs.google.com/document/d/1wpjfUZ2NT89BQuGzEFBlZ6IF_LgNnTCLkboaBLcpVFY/edit#heading=h.vv37mdxyde7)
 
@@ -124,7 +124,7 @@ The [`Procfile`](/Procfile) will run Django migrations and then launch Django'S 
 
 ##### Heroku One Click Deploy
 
-## ###TODO// Update the heroky one click deploy
+## ###TODO// Update the heroku one click deploy
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?xxxxxxxxxx)
 
